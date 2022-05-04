@@ -1,12 +1,16 @@
+<!DOCTYPE html>
 <html>
     <head>
+        <title> Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        
+        <div class="maindiv">
         <h1>Simple Interest Calculator</h1>
 
-         Amount <input type="number"  id="principal"> <br/>
+         Amount <input type="number"  id="principal"> onchange="validateAmount()">  <br/>
          
         Interest Rate <input type="number" min = 0 max = 100 id="Interest Rate"> <br/>
         
