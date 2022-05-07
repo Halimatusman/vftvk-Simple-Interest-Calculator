@@ -11,3 +11,8 @@ color: black;
   border-radius: 25px;
   margin:auto
 }
+<p>
+Interest Rate <input type="range" id="Interest Rate"<br>
+No. of Years <input type="number" id="No. of Years" value="1"<br>
+<button onclick="Compute Interest()">Compute Interest</button> <span id="result"></span><br>
+</p>  
