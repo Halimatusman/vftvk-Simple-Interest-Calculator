@@ -9,7 +9,7 @@
         <div class="maindiv">
         <form action="" id="mainform">
          Amount <input type="number"  id="principal">  <br/>
-         Interest Rate <input type="range"  id="Interest Rate"> min="minval" max= "maxval" step = ".25" value="default_value" id="rate" oninput = updateRate ()>
+         Interest Rate <input type="range"  id="Interest Rate" min="minval" max="maxval" step = ".25" value="default_value" oninput = updateRate ()>
             <span id+"rate_val">10.50% </span> <br/>
            No. of Years <input type="number"  id="No. of Years"> 
                                <select id = "years">
@@ -24,12 +24,7 @@
                                    <option value = "9">9</option>
                                    /select>
                                    <br/>
-                                   
-                                   </maindiv>
-            
-            <div id="slider">
-               
-            
+                              
          <button onclick="Compute Interest()"> Compute Interest</button>  <span id="result"> </span><br/>
             
             <footer>&#169; Everyone Can Get Rich</footer>
