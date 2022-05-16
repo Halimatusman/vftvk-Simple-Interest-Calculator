@@ -1,5 +1,5 @@
 body {background-color:white;}
-h1{color:powderblue;}
+h1{color:blue;}
 h2{color:black;}
 font family : Verdana
 }
@@ -12,6 +12,6 @@ color: black;
   margin:auto
     text-indent: 50px;
   letter-spacing: 2px;
-  white-space:nowrap;
-   Line-height:1.8px; 
+  white-space: normal;
+   Line-height:1.8px;
 }
