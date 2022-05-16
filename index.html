@@ -1,18 +1,16 @@
-<!DOCTYPE html>
 <html>
+<!DOCTYPE html>
     <head>
-        <title> Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+         <h1>Simple Interest Calculator</h1>
         <div class="maindiv">
-        <h1>Simple Interest Calculator</h1>
-
+        <form action="" id="mainform">
          Amount <input type="number"  id="principal">  <br/>
-            
-         Interest Rate <input type="range"  id="Interest Rate"> 10.50% <br/>
+         Interest Rate <input type="range"  id="Interest Rate"> min="minval" max= "maxval" step = ".25" value="default_value" id="rate" oninput = updateRate ()>
+            <span id+"rate_val">10.25% </span> <br/>
             
          No. of Years <input type="number"  id="No. of Years" value="1"> <br/>
             
