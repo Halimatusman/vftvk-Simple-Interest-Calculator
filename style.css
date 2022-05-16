@@ -12,6 +12,6 @@ color: black;
   margin:auto
     text-indent: 50px;
   letter-spacing: 2px;
-  white-space: normal;
+  white-space: pre-wrap;
    Line-height:1.8px;
 }
