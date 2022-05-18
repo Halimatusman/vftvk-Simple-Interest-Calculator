@@ -1,23 +1,14 @@
 body {background-color:white;}
-   h1{color:deep blue;}
-   text colour:black
-   font family : Verdana
+h1{color:powderblue;}
+h2{color:black;}
+font family : Verdana
 }
 
 .maindiv{
 color: black;
-  width: 600px;
+  width: 300px;
   padding: 20px;
   border-radius: 25px;
-  align:center;
   margin:auto
-    text-indent: 50px;
-    text decoration: center;
-  white-space: pre-wrap;
-   Line-height:1.8px;
-  table{margin-left:100px;}
-}
-
-.sectionMargin1{
-         padding-top:8rem;
+   Line-height:1.8; 
 }
