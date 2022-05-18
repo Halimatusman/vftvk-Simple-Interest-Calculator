@@ -1,17 +1,21 @@
-<html>
 <!DOCTYPE html>
+<html>
     <head>
+        <title> Simple Interest Calculator</title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-         <h1>Simple Interest Calculator</h1>
+        
         <div class="maindiv">
-        <form action="" id="mainform">
+        <h1>Simple Interest Calculator</h1>
+             <form action="" id="mainform">
          Amount <input type="number"  id="principal">  <br/>
-         Interest Rate <input type="range"  id="Interest Rate" min="minval" max="maxval" step = ".25" value="default_value" oninput = updateRate ()>
+            
+                  Interest Rate <input type="range"  id="Interest Rate" min="minval" max="maxval" step = ".25" value="default_value" oninput = updateRate ()>
             <span id+"rate_val">10.50% </span> <br/>
-           No. of Years <input type="number"  id="No. of Years"> 
+            
+         No. of Years <input type="number"  id="No. of Years"> 
                                <select id = "years">
                                    <option value = "1">1</option>
                                    <option value = "2">2</option>
@@ -23,6 +27,24 @@
                                    <option value = "8">8</option>
                                    <option value = "9">9</option>
                                    /select>
+                                   <br/>
+
+            
+         <button onclick="Compute Interest()"> Compute Interest</button>  <span id="result"> </span><br/>
+           
+            
+            <footer>&#169; Everyone Can Get Rich</footer>
+        </div>
+    </body>
+</html>
+
+
+    
+    
+         
+        
+
+                                  /select>
                                    <br/>
                               
           Compute interest < input type= "button onclick="Compute Interest()"> Compute Interest</button>  <span id="result"> id="Compute Interest </span><br/>
